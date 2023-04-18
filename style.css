@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.fcontain{
+    margin: 0;
+    display: flex;
+    background-color: black;
+    justify-content: end;
+    height:50px;
+    position: relative;
+    position: static;
+}
+.fitem{
+    color:white;
+    padding:13px;
+    margin: 0 34px 0 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+}
+p{
+    display: inline-block;
+}
+.item1{
+    align-content: baseline;
+}
+.item0{
+    position:absolute;
+    left:0px;
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 8px;
+    color:orangered;
+}
+.fitem:hover:not(.item0){
+    background-color: grey;
+    cursor: pointer;
+}
+courses{
+    display: flex;
+    height:92.5vh;
+    width:99vw;
+    /* border: 10px solid pink; */
+
+}
+.cat{
+    border-right:0.5px solid rgba(0, 0, 0, 0.349);
+    margin:50px;
+    padding: 50px;
+}
+.sec-01 a{
+    color:black
+}
+.content{
+    /* border-right: 2px solid black; */
+    text-align: center;
+    border-collapse: collapse;
+    margin-left:100px;
+    padding-top:100px;
+
+}
+tr,td{
+    padding: 20px;
+    color:white;
+}
+.id1{
+    color:#F2CD5C;
+}
+.drop-down{
+    background-color: #282A35;
+    height: 92.6vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+}
+.id2:hover{
+background-color: grey;
+}
+.id2 a:hover{
+color:black
+}
